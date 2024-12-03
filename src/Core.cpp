@@ -12,7 +12,6 @@ D3DFORMAT backBufferFormat = D3DFMT_A2R10G10B10;
 
 void __stdcall FixPresentParameters(D3DPRESENT_PARAMETERS* pPresentParameters) {
 	pPresentParameters->BackBufferFormat = backBufferFormat;
-	pPresentParameters->Flags
 }
 
 char* DetourCreateDeviceReturn = NULL;
